@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">LanguagesModernes</string>
+
+    <string name="invalid_mail">El e-mail no es válido</string>
+    <string name="invalid_password">La contraseña debe tener más de 6 caracteres</string>
+    <string name="invalid_passwords">Las contraseñas no coinciden</string>
+    <string name="invalid_name">Introduzca su nombre completo</string>
+    <string name="invalid_format_name">Carácter incompatible detectado</string>
+    <string name="invalid_curso">El curso no puede estar vacío</string>
+    <string name="invalid_group_name">Es necesario un nombre para el tema</string>
+    <string name="invalid_grop_description">La descripción debe tener más de 6 caracteres</string>
+    <string name="void_text">Este campo no puede estar vacío</string>
+
+    <string name="action_settings">Configuración</string>
+    <string name="newAccount">Crear cuenta</string>
+    <string name="curseCode">Código del curso</string>
+    <string name="NameComplete">Nombre completo</string>
+    <string name="email">E-mail</string>
+    <string name="pass">Contraseña</string>
+    <string name="RepeatPass">Repetir contraseña</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Alumnos</string>
+    <string name="menu_gallery">Ejercicios</string>
+    <string name="menu_slideshow">Configuración</string>
+    <string name="students">Alumnado</string>
+    <string name="tasks">Ejercicios</string>
+    <string name="cursos">Ver Cursos</string>
+    <string name="crearCurso">Crear Curso</string>
+    <string name="modEjercicios">Modificar Ejercicios</string>
+    <string name="gestInsignias">Gestionar Insignias</string>
+    <string name="logo">logo</string>
+    <string name="insignias">Insignias</string>
+    <string name="menu_main">Menú Principal</string>
+    <string name="verAlumnos">Ver Estudiantes</string>
+    <string name="addAlumno">Añadir Estudiante</string>
+    <string name="spinnerRef">Elija un tema</string>
+    <string name="title_activity_list_view_items">ListViewItemsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="elegirDificultad">Modificar...</string>
+    <string name="nuevoEjercicio">Nuevo Ejercicio</string>
+    <string name="emailDescription">Icono del email</string>
+    <string name="passwordDescription">Icono de la contraseña</string>
+    <string name="nameDescription">Icono del nombre</string>
+    <string name="groupDescription">Icono del tema</string>
+    <string name="repeatPassword">Icono de repetir contraseña</string>
+    <string name="logoDescription">Logo de la aplicación LLM</string>
+    <string name="txtNombre">"Nombre: "</string>
+    <string name="UCLMDescription">Logo de la UCLM</string>
+    <string name="nGrupo">Nº de tema</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="nuevoTema">Nuevo Tema</string>
+    <string name="modTema">Modificar Temas</string>
+
+</resources>

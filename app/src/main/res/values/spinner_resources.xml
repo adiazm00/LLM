@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerAdd">
+        <item>1 (más fácil)</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5 (más difícil)</item>
+    </string-array>
+
+    <string-array name="spinnerTest">
+        <item>Tipo test</item>
+    </string-array>
+
+    <string-array name="spinnerObservar">
+        <item>Observación</item>
+    </string-array>
+
+    <string-array name="spinnerPinchar">
+        <item>Pinchar y arrastrar</item>
+    </string-array>
+</resources>

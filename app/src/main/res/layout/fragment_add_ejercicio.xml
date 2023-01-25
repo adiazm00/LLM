@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imLogo"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/logo"
+        app:layout_constraintBottom_toTopOf="@+id/txtWelcome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="Seleccione el tipo de ejercicio que desea añadir al repositorio:"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnEjercicioObservar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imLogo" />
+
+    <Button
+        android:id="@+id/btnEjercicioObservar"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:text="Ejercicio de Observación"
+        app:cornerRadius="20dp"
+        app:icon="@drawable/eye"
+        app:iconSize="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnEjercicioTest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtWelcome" />
+
+    <Button
+        android:id="@+id/btnEjercicioTest"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:text="Ejercicio tipo Test"
+        app:cornerRadius="20dp"
+        app:icon="@drawable/test"
+        app:iconSize="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnEjercicioPinchar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEjercicioObservar" />
+
+    <Button
+        android:id="@+id/btnEjercicioPinchar"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:text="Ejercicio Pincha y Arrastra"
+        app:cornerRadius="20dp"
+        app:icon="@drawable/cursor"
+        app:iconSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEjercicioTest" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

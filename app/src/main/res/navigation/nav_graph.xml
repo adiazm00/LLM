@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginActivity">
+
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.llm.LoginActivity"
+        android:label="LoginActivity" />
+    <activity
+        android:id="@+id/registerActivity"
+        android:name="com.example.llm.RegisterActivity"
+        android:label="RegisterActivity" />
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.llm.ui.main.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/addEstudianteFragment"
+        android:name="com.example.llm.ui.alumnado.addEstudiante.AddEstudianteFragment"
+        android:label="AddEstudianteFragment"
+        tools:layout="@layout/fragment_add_estudiante"/>
+
+    <fragment
+        android:id="@+id/manageEstudianteFragment"
+        android:name="com.example.llm.ui.alumnado.manageEstudiantes.ManageEstudianteFragment"
+        android:label="ManageEstudiantesFragment"
+        tools:layout="@layout/fragment_manage_estudiantes"/>
+
+    <fragment
+        android:id="@+id/editEstudianteFragment"
+        android:name="com.example.llm.ui.alumnado.manageEstudiantes.EditEstudianteFragment"
+        android:label="EditEstudianteFragment"
+        tools:layout="@layout/fragment_edit_estudiante"/>
+
+    <fragment
+        android:id="@+id/addGrupoFragment"
+        android:name="com.example.llm.ui.temas.addTema.AddTemaFragment"
+        android:label="fragment_add_grupo"
+        tools:layout="@layout/fragment_add_tema">
+    </fragment>
+
+    <fragment
+        android:id="@+id/manageGrupoFragment"
+        android:name="com.example.llm.ui.temas.manageTema.ManageTemaFragment"
+        android:label="fragment_manage_grupos"
+        tools:layout="@layout/fragment_manage_temas">
+    </fragment>
+
+    <fragment
+        android:id="@+id/addEjercicioFragment"
+        android:name="com.example.llm.ui.ejercicios.addEjercicio.AddEjercicioFragment"
+        android:label="AddEjercicioFragment"
+        tools:layout="@layout/fragment_add_ejercicio"/>
+    <fragment
+        android:id="@+id/addObservarFragment"
+        android:name="com.example.llm.ui.ejercicios.addEjercicio.AddObservarFragment"
+        android:label="AddEjercicioObservarFragment"
+        tools:layout="@layout/fragment_add_ejercicio_observar"/>
+    <fragment
+        android:id="@+id/editObservarFragment"
+        android:name="com.example.llm.ui.ejercicios.manageEjercicios.EditObservarFragment"
+        android:label="EditEjercicioObservarFragment"
+        tools:layout="@layout/fragment_add_ejercicio_observar"/>
+
+
+
+</navigation>

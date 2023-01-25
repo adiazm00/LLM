@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/drawable/at_sign.xml" value="0.255" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/drawable/group.xml" value="0.255" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/drawable/login_password.xml" value="0.255" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/drawable/person.xml" value="0.255" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/drawable/repeat_password.xml" value="0.255" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/drawable/round_shape.xml" value="0.341" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/drawable/side_nav_bar.xml" value="0.171" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/layout/activity_login.xml" value="0.21039903264812576" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/layout/activity_register.xml" value="0.21039903264812576" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/layout/app_bar_main.xml" value="0.17147435897435898" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/layout/content_main2.xml" value="0.2438423645320197" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/layout/fragment_add_alumno.xml" value="0.271875" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/layout/fragment_add_ejercicio.xml" value="0.2355295566502463" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/layout/fragment_add_group.xml" value="0.25" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/layout/fragment_add_grupo.xml" value="0.271875" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/layout/fragment_alumnos.xml" value="0.33" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/layout/fragment_edit_group.xml" value="0.25" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/layout/fragment_ejercicios.xml" value="0.1" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/layout/fragment_first.xml" value="0.3625" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/layout/fragment_home.xml" value="0.1390625" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/layout/fragment_insignias.xml" value="0.1327467482785004" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/layout/fragment_main.xml" value="0.33" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/layout/fragment_principal.xml" value="0.271875" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/layout/fragment_second.xml" value="0.3625" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/layout/fragment_settings.xml" value="0.33" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/layout/fragment_show_ejercicios.xml" value="0.2355295566502463" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/layout/fragment_show_grupos.xml" value="0.2355295566502463" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/layout/list_view_items.xml" value="0.1225" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/layout/listview_ejercicios.xml" value="0.33" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/layout/listview_grupos.xml" value="0.25" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/layout/listview_item.xml" value="0.5" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/layout/nav_header_main.xml" value="0.25" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/layout/puta.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/menu/activity_main_drawer.xml" value="0.75" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/menu/main.xml" value="0.271875" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/menu/main_activity.xml" value="0.25" />
+        <entry key="..\:/Users/adiaz/AndroidStudioProjects/LLM/app/src/main/res/menu/main_activity2.xml" value="0.271875" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2985" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/drawable/add_user.xml" value="0.2985" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/drawable/at_sign.xml" value="0.2985" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/drawable/back.xml" value="0.2985" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/drawable/create_group.xml" value="0.2985" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/drawable/group.xml" value="0.2985" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/drawable/groups.xml" value="0.2985" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/drawable/home.xml" value="0.2985" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2985" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/drawable/ic_menu_camera.xml" value="0.2985" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.2985" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.2985" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/drawable/login_password.xml" value="0.2985" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/drawable/medal.xml" value="0.2985" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/drawable/repeat_password.xml" value="0.2985" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/drawable/round_shape.xml" value="0.2985" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/drawable/settings.xml" value="0.2985" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/drawable/side_nav_bar.xml" value="0.2985" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/drawable/students.xml" value="0.2985" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/drawable/tasks.xml" value="0.2985" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/drawable/user.xml" value="0.2985" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/drawable/ver_grupos.xml" value="0.2985" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/layout/activity_register.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/layout/app_bar_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/layout/content_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/layout/fragment_add_alumno.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/layout/fragment_add_ejercicio.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/layout/fragment_add_grupo.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/layout/fragment_alumnos.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/layout/fragment_edit_group.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/layout/fragment_ejercicios.xml" value="0.22" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/layout/fragment_insignias.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/layout/fragment_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/layout/fragment_settings.xml" value="0.33" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/layout/fragment_show_ejercicios.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/layout/fragment_show_grupos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/layout/listview_ejercicios.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/layout/listview_grupos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/layout/listview_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/layout/nav_header_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/adiaz/StudioProjects/LLM/app/src/main/res/menu/activity_main_drawer.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.5" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

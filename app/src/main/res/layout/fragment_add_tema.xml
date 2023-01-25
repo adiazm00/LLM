@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imLogo"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toTopOf="@+id/etAddNombreGrupo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtGrupo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:text="Tema: "
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/etAddNombreGrupo"
+        app:layout_constraintEnd_toStartOf="@+id/etAddNombreGrupo"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/etAddNombreGrupo" />
+
+    <EditText
+        android:id="@+id/etAddNombreGrupo"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Nº de tema"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/etAddDescriptionGrupo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imLogo" />
+
+    <TextView
+        android:id="@+id/txtDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripción: "
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/etAddDescriptionGrupo"
+        app:layout_constraintEnd_toStartOf="@+id/etAddDescriptionGrupo"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/etAddDescriptionGrupo" />
+
+    <EditText
+        android:id="@+id/etAddDescriptionGrupo"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Descripción"
+        android:inputType="textMultiLine"
+        android:minHeight="48dp"
+        android:singleLine="true"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerAddDificultad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etAddNombreGrupo" />
+
+    <TextView
+        android:id="@+id/txtDificultad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:text="Dificultad: "
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/spinnerAddDificultad"
+        app:layout_constraintEnd_toStartOf="@+id/spinnerAddDificultad"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/spinnerAddDificultad" />
+
+    <Spinner
+        android:id="@+id/spinnerAddDificultad"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:contentDescription="Elegir..."
+        android:entries="@array/spinnerAdd"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etAddDescriptionGrupo" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/btnGestionarTemas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerAddDificultad">
+
+        <TextView
+            android:id="@+id/txtInsignias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Insignias obtenibles:"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/insigniasRadioGroup"
+            app:layout_constraintEnd_toEndOf="@+id/insigniasRadioGroup"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/insigniasRadioGroup"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioGroup
+            android:id="@+id/insigniasRadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtInsignias">
+
+            <RadioButton
+                android:id="@+id/cbPAS"
+                android:layout_width="220dp"
+                android:layout_height="48dp"
+                android:layout_marginBottom="8dp"
+                android:drawableEnd="@drawable/pas"
+                android:text="PAS" />
+
+            <RadioButton
+                android:id="@+id/cbRIEN"
+                android:layout_width="220dp"
+                android:layout_height="48dp"
+                android:layout_marginBottom="8dp"
+                android:drawableEnd="@drawable/rien"
+                android:text="RIEN" />
+
+            <RadioButton
+                android:id="@+id/cbPLUS"
+                android:layout_width="220dp"
+                android:layout_height="48dp"
+                android:layout_marginBottom="8dp"
+                android:drawableEnd="@drawable/plus"
+                android:text="PLUS" />
+
+            <RadioButton
+                android:id="@+id/cbJAMAIS"
+                android:layout_width="220dp"
+                android:layout_height="48dp"
+                android:layout_marginBottom="8dp"
+                android:drawableEnd="@drawable/jamais"
+                android:text="JAMAIS" />
+
+            <RadioButton
+                android:id="@+id/cbNENINI"
+                android:layout_width="220dp"
+                android:layout_height="48dp"
+                android:layout_marginBottom="8dp"
+                android:drawableEnd="@drawable/nenini"
+                android:text="NE-NI-NI" />
+
+            <RadioButton
+                android:id="@+id/cbLINFORMAL"
+                android:layout_width="220dp"
+                android:layout_height="48dp"
+                android:layout_marginBottom="8dp"
+                android:drawableEnd="@drawable/informal"
+                android:text="L. INFORMAL" />
+
+            <RadioButton
+                android:id="@+id/cbPERSONE"
+                android:layout_width="220dp"
+                android:layout_height="48dp"
+                android:layout_marginBottom="8dp"
+                android:drawableEnd="@drawable/persone"
+                android:text="PERSONNE-NE" />
+
+        </RadioGroup>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/btnGestionarTemas"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/blueFlag"
+        android:text="Crear tema"
+        app:cornerRadius="20dp"
+        app:icon="@drawable/add_file"
+        app:iconGravity="textEnd"
+        app:iconPadding="8dp"
+        app:iconSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

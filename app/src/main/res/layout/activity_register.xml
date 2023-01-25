@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/logo"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toTopOf="@+id/itName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/icName"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/nameDescription"
+        app:layout_constraintBottom_toBottomOf="@+id/itName"
+        app:layout_constraintEnd_toStartOf="@+id/itName"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/itName"
+        app:srcCompat="@drawable/user" />
+
+    <EditText
+        android:id="@+id/itName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/NameComplete"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#8C8C8C"
+        app:layout_constraintBottom_toTopOf="@+id/itGroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/icName"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/icGroup"
+        android:layout_width="45dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/groupDescription"
+        app:layout_constraintBottom_toBottomOf="@+id/itGroup"
+        app:layout_constraintEnd_toStartOf="@+id/itGroup"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/itGroup"
+        app:srcCompat="@drawable/group"
+        tools:ignore="ImageContrastCheck" />
+
+    <EditText
+        android:id="@+id/itGroup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/curseCode"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#8C8C8C"
+        app:layout_constraintBottom_toTopOf="@+id/itEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/icGroup"
+        app:layout_constraintTop_toBottomOf="@+id/itName"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/icEmail"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/emailDescription"
+        app:layout_constraintBottom_toBottomOf="@+id/itEmail"
+        app:layout_constraintEnd_toStartOf="@+id/itEmail"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/itEmail"
+        app:srcCompat="@drawable/at_sign" />
+
+    <EditText
+        android:id="@+id/itEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColorHint="#8C8C8C"
+        app:layout_constraintBottom_toTopOf="@+id/itPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/icEmail"
+        app:layout_constraintTop_toBottomOf="@+id/itGroup"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/icPassword"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/passwordDescription"
+        app:layout_constraintBottom_toBottomOf="@+id/itPassword"
+        app:layout_constraintEnd_toStartOf="@+id/itPassword"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/itPassword"
+        app:srcCompat="@drawable/repeat_password" />
+
+    <EditText
+        android:id="@+id/itPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/pass"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        app:layout_constraintBottom_toTopOf="@+id/itRepeatPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/icPassword"
+        app:layout_constraintTop_toBottomOf="@+id/itEmail" />
+
+    <ImageView
+        android:id="@+id/icRepeatPassword"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/repeatPassword"
+        app:layout_constraintBottom_toBottomOf="@+id/itRepeatPassword"
+        app:layout_constraintEnd_toStartOf="@+id/itRepeatPassword"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/itRepeatPassword"
+        app:srcCompat="@drawable/login_password" />
+
+    <EditText
+        android:id="@+id/itRepeatPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/RepeatPass"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="#8C8C8C"
+        app:layout_constraintBottom_toTopOf="@+id/btnRegister"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/icRepeatPassword"
+        app:layout_constraintTop_toBottomOf="@+id/itPassword"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="500dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/blueFlag"
+        android:text="Registrarse"
+        app:cornerRadius="20dp"
+        app:icon="@drawable/add_user"
+        app:iconGravity="textEnd"
+        app:iconSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itRepeatPassword"
+        app:layout_constraintVertical_bias="0.467" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.insignias.InsigniasFragment">
+
+    <TextView
+        android:id="@+id/tvInsigniasHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="Insignias disponibles: "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvInsigniasHeader">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivPASts"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/badge_1" />
+
+                <TextView
+                    android:id="@+id/tvPASts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PAS: Temps Simples"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivPAStc"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/badge_2" />
+
+                <TextView
+                    android:id="@+id/tvPAStc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PAS: Temps Composés"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivJAMAISts"
+                    android:layout_width="90dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/badge_6" />
+
+                <TextView
+                    android:id="@+id/tvJAMAISts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="JAMAIS: Temps Simples"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivJAMAIStc"
+                    android:layout_width="90dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/badge_5" />
+
+                <TextView
+                    android:id="@+id/tvJAMAIStc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="JAMAIS: Temps Composés"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivPLUSts"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/badge_3" />
+
+                <TextView
+                    android:id="@+id/tvPLUSts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PLUS: Temps Simples"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivPLUStc"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/badge_4" />
+
+                <TextView
+                    android:id="@+id/tvPLUStc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PLUS: Temps Composés"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivPERSONEts"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/badge_7" />
+
+                <TextView
+                    android:id="@+id/tvPERSONEts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PERSONNE-NE: Temps Simples"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivPERSONEtc"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/badge_8" />
+
+                <TextView
+                    android:id="@+id/tvPERSONEtc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PERSONNE-NE: Temp Composé"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivLIts"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/badge_9" />
+
+                <TextView
+                    android:id="@+id/tvLIts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="L. INFORMAL: Temps Simples"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivLItc"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/badge_10" />
+
+                <TextView
+                    android:id="@+id/tvLItc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="L. INFORMAL: Temp Composé"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivRIENts"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/badge_11" />
+
+                <TextView
+                    android:id="@+id/tvRIENts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RIEN: Temps Simples"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivRIENtc"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/badge_12" />
+
+                <TextView
+                    android:id="@+id/tvRIENtc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RIEN: Temps Composés"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivNENINIts"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/badge_13" />
+
+                <TextView
+                    android:id="@+id/tvNENINIts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NE-NI-NI: Temps Simples"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivNENINItc"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/badge_14" />
+
+                <TextView
+                    android:id="@+id/tvNENINItc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NE-NI-NI: Temp Composé"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

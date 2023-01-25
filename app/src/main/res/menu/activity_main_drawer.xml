@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@drawable/home"
+            android:checkable="true"
+            android:title="@string/menu_main" />
+
+        <item android:title="Alumnos">
+            <menu>
+                <item
+                    android:id="@+id/nav_add_estudiante"
+                    android:checkable="true"
+                    android:icon="@drawable/add_user"
+                    android:title="Añadir estudiantes" />
+                <item
+                    android:id="@+id/nav_manage_estudiantes"
+                    android:checkable="true"
+                    android:icon="@drawable/students"
+                    android:title="Gestionar alumnado" />
+            </menu>
+        </item>
+
+        <item android:title="Ejercicios">
+            <menu>
+                <item
+                    android:id="@+id/nav_add_grupo"
+                    android:checkable="true"
+                    android:icon="@drawable/create_group"
+                    android:title="Crear tema" />
+                <item
+                    android:id="@+id/nav_manage_grupo"
+                    android:checkable="true"
+                    android:icon="@drawable/ver_grupos"
+                    android:title="Gestionar temas" />
+                <item
+                    android:id="@+id/nav_add_ejercicio"
+                    android:checkable="true"
+                    android:icon="@drawable/add_file"
+                    android:title="@string/nuevoEjercicio" />
+                <item
+                    android:id="@+id/nav_manage_ejercicios"
+                    android:checkable="true"
+                    android:icon="@drawable/edit_document"
+                    android:title="Gestionar Ejercicios" />
+            </menu>
+        </item>
+
+
+        <item android:title="Insignias">
+            <menu>
+                <item
+                    android:id="@+id/nav_insignias"
+                    android:checkable="true"
+                    android:icon="@drawable/medal"
+                    android:title="@string/gestInsignias" />
+            </menu>
+        </item>
+
+        <item android:title="Usuario">
+            <menu>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout"
+                    android:title="Cerrar sesión" />
+            </menu>
+        </item>
+
+    </group>
+</menu>

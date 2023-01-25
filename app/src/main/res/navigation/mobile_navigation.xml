@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_main">
+
+    <fragment
+        android:id="@+id/nav_main"
+        android:name="com.example.llm.ui.main.MainFragment"
+        android:label="@string/menu_main"
+        tools:layout="@layout/fragment_main" />
+
+    <fragment
+        android:id="@+id/nav_add_estudiante"
+        android:name="com.example.llm.ui.alumnado.addEstudiante.AddEstudianteFragment"
+        android:label="Añadir estudiante"
+        tools:layout="@layout/fragment_add_estudiante" />
+
+    <fragment
+        android:id="@+id/nav_edit_estudiante"
+        android:name="com.example.llm.ui.alumnado.manageEstudiantes.EditEstudianteFragment"
+        android:label="Editar estudiante"
+        tools:layout="@layout/fragment_edit_estudiante" />
+
+    <fragment
+        android:id="@+id/nav_manage_estudiantes"
+        android:name="com.example.llm.ui.alumnado.manageEstudiantes.ManageEstudianteFragment"
+        android:label="Gestionar estudiantes"
+        tools:layout="@layout/fragment_manage_estudiantes" />
+
+    <fragment
+        android:id="@+id/nav_add_grupo"
+        android:name="com.example.llm.ui.temas.addTema.AddTemaFragment"
+        android:label="Crear tema"
+        tools:layout="@layout/fragment_add_tema" />
+
+    <fragment
+        android:id="@+id/nav_manage_grupo"
+        android:name="com.example.llm.ui.temas.manageTema.ManageTemaFragment"
+        android:label="Gestionar temas"
+        tools:layout="@layout/fragment_manage_temas" />
+
+
+    <fragment
+        android:id="@+id/nav_add_ejercicio"
+        android:name="com.example.llm.ui.ejercicios.addEjercicio.AddEjercicioFragment"
+        android:label="Añadir ejercicios"
+        tools:layout="@layout/fragment_add_ejercicio_test" />
+
+    <fragment
+        android:id="@+id/nav_manage_ejercicios"
+        android:name="com.example.llm.ui.ejercicios.manageEjercicios.ManageEjercicioFragment"
+        android:label="Gestionar ejercicios"
+        tools:layout="@layout/fragment_manage_ejercicios" />
+
+    <fragment
+        android:id="@+id/nav_insignias"
+        android:name="com.example.llm.ui.insignias.InsigniasFragment"
+        android:label="Gestionar insignias"
+        tools:layout="@layout/fragment_insignias" />
+
+    <dialog
+        android:id="@+id/nav_logout"
+        android:name="com.example.llm.extras.Logout"
+        android:label="Cerrar sesión" />
+
+
+
+</navigation>

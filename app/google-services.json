@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "303969525761",
+    "project_id": "llm-2022",
+    "storage_bucket": "llm-2022.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303969525761:android:c187624eb16468cc81a000",
+        "android_client_info": {
+          "package_name": "com.example.llm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303969525761-oli5eapnfinbs8egrh6eomueitmvo2n4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1n45smvGVqkreWRWuKnL-TXRjGnTN-qc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303969525761-oli5eapnfinbs8egrh6eomueitmvo2n4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

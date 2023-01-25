@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:layout_editor_absoluteX="-5dp"
+    tools:layout_editor_absoluteY="263dp">
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="Nombre"
+        android:text="Nombre: "
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/etNombreEdit"
+        app:layout_constraintEnd_toStartOf="@+id/etNombreEdit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/etNombreEdit" />
+
+    <EditText
+        android:id="@+id/etNombreEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="@string/NameComplete"
+        android:inputType="textPersonName"
+        android:labelFor="@id/txtNombre"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/etEmailEdit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="e-mail: "
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/etEmailEdit"
+        app:layout_constraintEnd_toStartOf="@+id/etEmailEdit"
+        app:layout_constraintTop_toTopOf="@+id/etEmailEdit" />
+
+    <EditText
+        android:id="@+id/etEmailEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:clickable="false"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="email@email.com"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColorHint="#8C8C8C"
+        app:layout_constraintBottom_toTopOf="@+id/etGroupEdit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNombreEdit" />
+
+    <TextView
+        android:id="@+id/txtGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="Curso: "
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/etGroupEdit"
+        app:layout_constraintEnd_toStartOf="@+id/etGroupEdit"
+        app:layout_constraintTop_toTopOf="@+id/etGroupEdit" />
+
+    <EditText
+        android:id="@+id/etGroupEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Nº de curso"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnSaveEstudiante"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEmailEdit" />
+
+    <Button
+        android:id="@+id/btnSaveEstudiante"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/blueFlag"
+        android:text="Guardar cambios"
+        app:cornerRadius="20dp"
+        app:iconPadding="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etGroupEdit" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

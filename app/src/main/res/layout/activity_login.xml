@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/logo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:layout_constraintBottom_toTopOf="@+id/itEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/icEmail"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/emailDescription"
+        app:layout_constraintBottom_toBottomOf="@+id/itEmail"
+        app:layout_constraintEnd_toStartOf="@+id/itEmail"
+        app:layout_constraintTop_toTopOf="@+id/itEmail"
+        app:srcCompat="@drawable/at_sign" />
+
+    <EditText
+        android:id="@+id/itEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColorHint="#A1887F"
+        app:layout_constraintBottom_toTopOf="@+id/itPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/icPassword"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/passwordDescription"
+        app:layout_constraintBottom_toBottomOf="@+id/itPassword"
+        app:layout_constraintEnd_toStartOf="@+id/itPassword"
+        app:layout_constraintTop_toTopOf="@+id/itPassword"
+        app:srcCompat="@drawable/repeat_password" />
+
+    <EditText
+        android:id="@+id/itPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/pass"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="#A1887F"
+        app:layout_constraintBottom_toTopOf="@+id/btn_Login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itEmail" />
+
+    <Button
+        android:id="@+id/btn_Login"
+        android:layout_width="500dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/blueFlag"
+        android:onClick="oyente_SignIn"
+        android:text="@string/login"
+        app:cornerRadius="20dp"
+        app:icon="@drawable/login"
+        app:iconGravity="textEnd"
+        app:iconSize="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_CreateAccount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itPassword" />
+
+    <Button
+        android:id="@+id/btn_CreateAccount"
+        android:layout_width="500dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/blueFlag"
+        android:onClick="oyente_SignUp"
+        android:text="@string/newAccount"
+        app:cornerRadius="20dp"
+        app:icon="@drawable/register"
+        app:iconGravity="textEnd"
+        app:iconSize="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Login"
+        tools:ignore="OnClick" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
